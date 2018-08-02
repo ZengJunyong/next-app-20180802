@@ -5,8 +5,6 @@ class TodoApp extends React.Component {
     constructor(props) {
         super(props);
         this.state = {items: [], text: ''};
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     render() {
@@ -31,11 +29,14 @@ class TodoApp extends React.Component {
         );
     }
 
-    handleChange(e) {
+    // https://reactjs.org/docs/handling-events.html
+    // If calling bind annoys you, there are two ways you can get around this.
+    handleChange = (e) => {
         this.setState({text: e.target.value});
     }
 
-    handleSubmit(e) {
+    handleSubmit = (e) => {
+        debugger
         e.preventDefault();
         if (!this.state.text.length) {
             return;
