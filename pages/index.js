@@ -5,6 +5,7 @@ import Nav from '../components/nav'
 import HelloMessage from '../components/hello.message'
 import Timer from '../components/timer'
 import TodoApp from '../components/todo'
+import Jsx from '../components/jsx'
 
 const Home = () => (
   <div>
