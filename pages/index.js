@@ -4,16 +4,18 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import HelloMessage from '../components/hello.message'
 import Timer from '../components/timer'
+import TodoApp from '../components/todo'
 
 const Home = () => (
   <div>
     <HelloMessage name="React" />
     <Timer/>
+    <TodoApp/>
     <Head title="Home" />
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Welcome to Next2!</h1>
+      <h1 className="title">Welcome to Next!</h1>
       <p className="description">
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
