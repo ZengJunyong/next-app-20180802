@@ -3,10 +3,12 @@ import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 import HelloMessage from '../components/hello.message'
+import Timer from '../components/timer'
 
 const Home = () => (
   <div>
     <HelloMessage name="React" />
+    <Timer/>
     <Head title="Home" />
     <Nav />
 
