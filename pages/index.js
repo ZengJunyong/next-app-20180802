@@ -8,6 +8,7 @@ import TodoApp from '../components/todo'
 import Jsx from '../components/jsx'
 import LoginControl from '../components/login.control'
 import Form from '../components/forms'
+import Calculator from '../components/calculator'
 
 const Home = () => (
   <div>
@@ -17,6 +18,7 @@ const Home = () => (
     <LoginControl/>
     <Head title="Home" />
     <Form/>
+    <Calculator/>
     <Nav />
 
     <div className="hero">
