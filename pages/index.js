@@ -11,6 +11,7 @@ import Form from '../components/forms'
 import Calculator from '../components/calculator'
 import SignUpDialog from '../components/sign.up.dialog'
 import FilterableProductTable from '../components/filterable.product.table'
+import BasicExample from '../components/basic.example'
 
 const Home = () => (
   <div>
@@ -23,6 +24,7 @@ const Home = () => (
     <Calculator/>
     <SignUpDialog/>
     <FilterableProductTable/>
+    <BasicExample/>
     <Nav />
 
     <div className="hero">
