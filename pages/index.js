@@ -6,12 +6,14 @@ import HelloMessage from '../components/hello.message'
 import Timer from '../components/timer'
 import TodoApp from '../components/todo'
 import Jsx from '../components/jsx'
+import LoginControl from '../components/login.control'
 
 const Home = () => (
   <div>
     <HelloMessage name="React" />
     <Timer/>
     <TodoApp/>
+    <LoginControl/>
     <Head title="Home" />
     <Nav />
 
