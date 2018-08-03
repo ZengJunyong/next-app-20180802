@@ -10,6 +10,7 @@ import LoginControl from '../components/login.control'
 import Form from '../components/forms'
 import Calculator from '../components/calculator'
 import SignUpDialog from '../components/sign.up.dialog'
+import FilterableProductTable from '../components/filterable.product.table'
 
 const Home = () => (
   <div>
@@ -21,6 +22,7 @@ const Home = () => (
     <Form/>
     <Calculator/>
     <SignUpDialog/>
+    <FilterableProductTable/>
     <Nav />
 
     <div className="hero">
