@@ -7,6 +7,7 @@ import Timer from '../components/timer'
 import TodoApp from '../components/todo'
 import Jsx from '../components/jsx'
 import LoginControl from '../components/login.control'
+import Form from '../components/forms'
 
 const Home = () => (
   <div>
@@ -15,6 +16,7 @@ const Home = () => (
     <TodoApp/>
     <LoginControl/>
     <Head title="Home" />
+    <Form/>
     <Nav />
 
     <div className="hero">
