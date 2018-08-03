@@ -9,6 +9,7 @@ import Jsx from '../components/jsx'
 import LoginControl from '../components/login.control'
 import Form from '../components/forms'
 import Calculator from '../components/calculator'
+import SignUpDialog from '../components/sign.up.dialog'
 
 const Home = () => (
   <div>
@@ -19,6 +20,7 @@ const Home = () => (
     <Head title="Home" />
     <Form/>
     <Calculator/>
+    <SignUpDialog/>
     <Nav />
 
     <div className="hero">
